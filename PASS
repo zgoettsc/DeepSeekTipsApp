@@ -1,0 +1,8 @@
+platform :ios, '16.0'
+use_frameworks!
+
+target 'TIPsApp' do
+  pod 'FirebaseFirestore'
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestoreSwift'
+end
